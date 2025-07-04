@@ -1,3 +1,4 @@
+# Smart City Parking Reservation and Payment System
 🚗 Smart City Parking Reservation and Payment System
 An end-to-end full-stack solution for reserving, managing, and paying for smart city parking spaces. Supports user and admin dashboards, live slot tracking, number plate detection, and Razorpay integration for secure payments.
 
