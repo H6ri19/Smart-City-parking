@@ -1,1 +1,125 @@
-# parking-Book
+![image](https://github.com/user-attachments/assets/9e3528c7-fd2a-45a2-8bb6-58051e98b42b)🚗 Smart City Parking Reservation and Payment System
+An end-to-end full-stack solution for reserving, managing, and paying for smart city parking spaces. Supports user and admin dashboards, live slot tracking, number plate detection, and Razorpay integration for secure payments.
+
+📸 Screenshots
+User Panel	Admin Dashboard	Parking Slots Map 
+
+🚀 Features
+🔐 User Authentication (JWT, bcrypt)
+
+📍 Live Location & Zone Map
+
+🅿️ Real-time Parking Slot Booking
+
+💳 Razorpay Payment Integration
+
+🧑‍💼 Admin Panel: Manage users, parking slots, and bookings
+
+📄 User Booking History & Profile
+
+☁️ Cloudinary Image Upload
+
+🧾 Invoice Generation & 📷 Number Plate Recognition (ALPR ready) || (Coming soon)
+
+🧰 Tech Stack
+Frontend:
+
+React 19 + Vite
+
+Tailwind CSS
+
+React Router v7.6.2
+
+Leaflet + React-Leaflet (Maps)
+
+Backend:
+
+Node.js + Express
+
+MongoDB + Mongoose
+
+Razorpay Payment API
+
+Cloudinary (image uploads)
+
+JWT Authentication
+
+Multer (file handling)
+
+📁 Folder Structure
+pgsql
+Copy
+Edit
+Smart-City-parking/
+├── frontend/     → User-side React app
+├── backend/      → Node.js + MongoDB backend API
+├── admin/        → Admin dashboard (React + Vite)
+├── README.md
+├── .env
+└── package.json (Root level runner using concurrently)
+🛠️ Setup Instructions
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/H6ri19/Smart-City-parking.git
+cd Smart-City-parking
+2. Install Dependencies
+bash
+Copy
+Edit
+# Root (for concurrently)
+npm install
+
+# Frontend
+cd frontend
+npm install
+
+# Backend
+cd ../backend
+npm install
+
+# Admin
+cd ../admin
+npm install
+3. Setup Environment Variables
+Create .env in the backend/ folder:
+
+env
+Copy
+Edit
+PORT=4000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+CLOUD_NAME=your_cloudinary_name
+CLOUD_API_KEY=your_cloudinary_api_key
+CLOUD_API_SECRET=your_cloudinary_api_secret
+RAZORPAY_KEY=your_razorpay_key
+RAZORPAY_SECRET=your_razorpay_secret
+
+4. Start All Services
+bash
+Copy
+Edit
+# From project root
+npm run dev
+🔑 Routes
+User API: /api/parking/...
+
+Admin API: /api/admin/...
+
+Booking API: /api/booking/...
+
+🤝 Contributing
+Fork the repo
+
+Create a feature branch git checkout -b feature-name
+
+Commit your changes git commit -m 'Add some feature'
+
+Push to the branch git push origin feature-name
+
+Create a Pull Request
+
+📜 License
+This project is licensed under the MIT License.
