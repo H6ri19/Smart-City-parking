@@ -12,7 +12,7 @@ Admin Dashboard
 Parking Slots Map
 ![image](https://github.com/user-attachments/assets/ced43ab3-484c-4f02-a3b4-dbd23f528248)
 
-🚀 Features
+# 🚀 Features
 🔐 User Authentication (JWT, bcrypt)
 
 📍 Live Location & Zone Map
@@ -29,7 +29,7 @@ Parking Slots Map
 
 🧾 Invoice Generation & 📷 Number Plate Recognition (ALPR ready) || (Coming soon)
 
-🧰 Tech Stack
+# 🧰 Tech Stack
 Frontend:
 
 React 19 + Vite
@@ -54,45 +54,6 @@ JWT Authentication
 
 Multer (file handling)
 
-📁 Folder Structure
-pgsql
-Copy
-Edit
-Smart-City-parking/
-├── frontend/     → User-side React app
-├── backend/      → Node.js + MongoDB backend API
-├── admin/        → Admin dashboard (React + Vite)
-├── README.md
-├── .env
-└── package.json (Root level runner using concurrently)
-🛠️ Setup Instructions
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/H6ri19/Smart-City-parking.git
-cd Smart-City-parking
-2. Install Dependencies
-bash
-Copy
-Edit
-# Root (for concurrently)
-npm install
-
-# Frontend
-cd frontend
-npm install
-
-# Backend
-cd ../backend
-npm install
-
-# Admin
-cd ../admin
-npm install
-3. Setup Environment Variables
-Create .env in the backend/ folder:
-
 env
 Copy
 Edit
@@ -105,20 +66,21 @@ CLOUD_API_SECRET=your_cloudinary_api_secret
 RAZORPAY_KEY=your_razorpay_key
 RAZORPAY_SECRET=your_razorpay_secret
 
-4. Start All Services
+ Start All Services
 bash
 Copy
 Edit
 # From project root
 npm run dev
-🔑 Routes
+
+# 🔑 Routes
 User API: /api/parking/...
 
 Admin API: /api/admin/...
 
 Booking API: /api/booking/...
 
-🤝 Contributing
+# 🤝 Contributing
 Fork the repo
 
 Create a feature branch git checkout -b feature-name
@@ -129,5 +91,5 @@ Push to the branch git push origin feature-name
 
 Create a Pull Request
 
-📜 License
+# 📜 License
 This project is licensed under the MIT License.
