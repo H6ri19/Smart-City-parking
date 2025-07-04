@@ -1,8 +1,15 @@
-![image](https://github.com/user-attachments/assets/9e3528c7-fd2a-45a2-8bb6-58051e98b42b)🚗 Smart City Parking Reservation and Payment System
+🚗 Smart City Parking Reservation and Payment System
 An end-to-end full-stack solution for reserving, managing, and paying for smart city parking spaces. Supports user and admin dashboards, live slot tracking, number plate detection, and Razorpay integration for secure payments.
 
 📸 Screenshots
-User Panel	Admin Dashboard	Parking Slots Map 
+User Panel		 
+![Prescripto - Homepage](https://github.com/user-attachments/assets/23572615-f471-4e58-a549-59121d103c26)
+
+Admin Dashboard
+![image](https://github.com/user-attachments/assets/59e71ef2-efca-4fba-b498-7d62b4341db1)
+
+Parking Slots Map
+![image](https://github.com/user-attachments/assets/ced43ab3-484c-4f02-a3b4-dbd23f528248)
 
 🚀 Features
 🔐 User Authentication (JWT, bcrypt)
